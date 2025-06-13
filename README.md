@@ -1,5 +1,5 @@
 
-🛒 # Ecommerce Application Microservices
+# 🛒  Ecommerce Application Microservices
 This is a collection of microservices built for an Ecommerce application, each handling a specific domain of functionality.
 
 📦## Product Service
