@@ -10,5 +10,4 @@ Handles operations related to products. You can add, retrieve, and modify produc
 #💲Price Service
 Manages all pricing-related operations. You can add, retrieve, and modify product prices as required.
 
-🔗 [Repository Link](https://github.com/shivanshjais22/price-service)
-
+🔗 Repository Link(https://github.com/shivanshjais22/price_service)
