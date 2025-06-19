@@ -1,64 +1,61 @@
-🛒 Ecommerce Application - Microservices Architecture
-This repository is a collection of microservices built for an Ecommerce application. Each service is independently deployable and follows the microservices architecture pattern. Below is a brief overview of each service along with links to their respective repositories.
+# 🛒 Ecommerce Application - Microservices Architecture
 
-📦 Product Service
-Description: Handles all product-related operations such as adding, retrieving, and updating product information.
+This repository contains a collection of microservices built for an Ecommerce application. Each microservice is responsible for a specific domain and is independently deployable.
 
-Features:
+---
 
-Add new products
+## 📦 Product Service
 
-Retrieve product listings
+Handles product-related operations such as adding, retrieving, and modifying products.
 
-Modify product details
+🔗 [View Repository](#)
 
-🔗 View Repository
+---
 
-👤 User Service
-Description: Manages user authentication and profile operations.
+## 👤 User Service
 
-Features:
+Manages all user-related functionalities including:
 
-User signup, login, and logout
+- User signup, login, and logout
+- JWT-based token authentication
+- Secured using Spring Security
 
-JWT-based token authentication
+🔗 [View Repository](#)
 
-Secured with Spring Security
+---
 
-🔗 View Repository
+## 💳 Payment Service
 
-💳 Payment Service
-Description: Handles all payment processing using Stripe.
+Integrates with Stripe for secure payment processing.
 
-Features:
+🔗 [View Repository](#)
 
-Integration with Stripe Payment Gateway
+---
 
-Secure transaction handling
+## 🧭 Service Registry
 
-🔗 View Repository
+Acts as a service registry for tracking and managing microservice instances.
 
-🧭 Service Registry
-Description: Acts as a service registry for managing and tracking service instances.
+- Supports service discovery
+- Enables load balancing through API Gateway
 
-Features:
+🔗 [View Repository](#)
 
-Keeps track of all running microservices
+---
 
-Enables load balancing and service discovery
+## 🌐 API Gateway
 
-🔗 View Repository
+Serves as the single entry point for all client requests.
 
-🌐 API Gateway
-Description: Serves as the single entry point for all client requests.
+- Routes requests to appropriate services
+- Handles URL-based routing and traffic control
 
-Features:
+🔗 [View Repository](#)
 
-Routes incoming requests to appropriate services
+---
 
-Acts as a reverse proxy and request router
+## 📘 About
 
-🔗 View Repository
+Each microservice listed above is hosted in its own GitHub repository. Use the links provided to explore their source code and details.
 
-📘 About This Repository
-This repository provides a high-level overview of the complete Ecommerce Microservices Architecture. For more details on each service, refer to their respective repositories linked above.
+
