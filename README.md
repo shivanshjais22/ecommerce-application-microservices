@@ -1,24 +1,64 @@
-Ecommerce Application Microservices
-Here is the collection of all the microservices I built for an Ecommerce application and their description.
+🛒 Ecommerce Application - Microservices Architecture
+This repository is a collection of microservices built for an Ecommerce application. Each service is independently deployable and follows the microservices architecture pattern. Below is a brief overview of each service along with links to their respective repositories.
 
-Product Service
-This is product service, we can add, retrieve, and modify the products based on the need.
-Link to repository click here
-User Service
-This service acts as the user base of the project.
-All the signup, login and logout functionalities are implemented here.
-I have implemented token-based authentication using Spring Security and JWT for authenticating users.
-Link to the repository :- click here
-Payment Service
-Integrated Stripe payment gateway for payments.
-Link to the repository :- click here
-Service Registry
-This acts as a service registry.
-This service maps all the available instances of the registered services, which our API gateway can use to redirect the requests and balance the load.
-Link to the repository :- click here
-API Gateway
-Acts as the single entry point for all client requests.
-Routes requests to the appropriate microservices based on URL paths.
-Link to the repository :- click here
-About
-This repository includes a README file that provides an overview of each microservice, including their functionalities and links to their respective repositories
+📦 Product Service
+Description: Handles all product-related operations such as adding, retrieving, and updating product information.
+
+Features:
+
+Add new products
+
+Retrieve product listings
+
+Modify product details
+
+🔗 View Repository
+
+👤 User Service
+Description: Manages user authentication and profile operations.
+
+Features:
+
+User signup, login, and logout
+
+JWT-based token authentication
+
+Secured with Spring Security
+
+🔗 View Repository
+
+💳 Payment Service
+Description: Handles all payment processing using Stripe.
+
+Features:
+
+Integration with Stripe Payment Gateway
+
+Secure transaction handling
+
+🔗 View Repository
+
+🧭 Service Registry
+Description: Acts as a service registry for managing and tracking service instances.
+
+Features:
+
+Keeps track of all running microservices
+
+Enables load balancing and service discovery
+
+🔗 View Repository
+
+🌐 API Gateway
+Description: Serves as the single entry point for all client requests.
+
+Features:
+
+Routes incoming requests to appropriate services
+
+Acts as a reverse proxy and request router
+
+🔗 View Repository
+
+📘 About This Repository
+This repository provides a high-level overview of the complete Ecommerce Microservices Architecture. For more details on each service, refer to their respective repositories linked above.
