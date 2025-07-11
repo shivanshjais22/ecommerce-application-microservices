@@ -8,7 +8,7 @@ This repository contains a collection of microservices built for an Ecommerce ap
 
 Handles product-related operations such as adding, retrieving, and modifying products.
 
-🔗 [View Repository](https://github.com/shivanshjais22/new)
+🔗 [View Repository](https://github.com/shivanshjais22/new).
 
 ---
 
