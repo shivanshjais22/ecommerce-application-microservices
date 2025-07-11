@@ -4,7 +4,7 @@ This repository contains a collection of microservices built for an Ecommerce ap
 
 ---
 
-## 📦 Product Service.
+## 📦 Product Service
 
 Handles product-related operations such as adding, retrieving, and modifying products.
 
